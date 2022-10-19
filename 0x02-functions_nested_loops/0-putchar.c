@@ -2,8 +2,8 @@
 #include "main.h"
 
 /**
- * main
- * _putchar
+ * main - print putchar and a new line
+ * Return always (0)
  */
 
 
