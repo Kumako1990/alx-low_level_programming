@@ -4,7 +4,7 @@
  * @c: input number.
  * Return: 1 if is a number (0 to 9), o in ohter case.
  */
-int isdigit(int c)
+int _isdigit(int c)
 {
 	if (c >= 48 && c <= 57)
 	{
