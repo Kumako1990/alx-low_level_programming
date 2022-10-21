@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * isdigit -checks if parameter is a number betwwen 0 to 9.
+ * isdigit: checks if parameter is a number betwwen 0 to 9.
  * @c: input number.
- * Return: 1 if is a number (0 to 9), o in ohter case
+ * Return: 1 if is a number (0 to 9), o in ohter case.
  */
-int _isdigit(int c)
+int isdigit(int c)
 {
 	if (c >= 48 && c <= 57)
 	{
