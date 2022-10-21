@@ -1,56 +1,15 @@
+#include "main.h"
+
 /**
- *
- *  * C program to check whether a character is uppercase or lowercase 
- *
- *   */
-
-
-
-#include <stdio.h>
-
-
-
-int main()
-
+ * isupper Checks for uppercase
+ * the character to check
+ * Return 1 if character is uppercase, o otherwise
+ * */
+int _isupper(int c)
 {
+		if (c >= 'A' && c <= 'Z')
+					return (1);
 
-	    char ch;
-
-
-
-	        /* Input character from user */
-
-	        printf("Enter any character: ");
-
-		    scanf("%c", &ch);
-
-
-
-
-
-		        if(ch >= 'A' && ch <= 'Z')
-
-				    {
-
-					            printf("'%c' is uppercase alphabet.", ch);
-
-						        }
-
-			    else if(ch >= 'a' && ch <= 'z')
-
-				        {
-
-						        printf("'%c' is lowercase alphabet.", ch);
-
-							    }
-
-			        else
-
-					    {
-
-						            printf("'%c' is not an alphabet.", ch);
-
-							        }
-
-				    return 0;
+			else
+						return (0);
 }
