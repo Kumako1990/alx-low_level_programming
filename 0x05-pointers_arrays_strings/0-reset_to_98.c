@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * reset to -reset_to_98.c
- * main - check my code
- * n: = 98
- * return: 0
+ * main - entry point
+ *
+ * Description: 'the programm description'
+ *
+ * return: Always 0 (Success)
  */
 
 void reset_to_98(int *n)
