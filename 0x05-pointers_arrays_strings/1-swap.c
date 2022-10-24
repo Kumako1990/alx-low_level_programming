@@ -3,7 +3,6 @@
 
 
 /**
- *
  * swap_int - swaps the values of two integers
  *
  * @a: integer to swap

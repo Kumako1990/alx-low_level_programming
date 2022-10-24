@@ -1,15 +1,11 @@
 #include "main.h"
 
 /**
- * main - entry point
+ * reset_to_98 - description
  *
- * Description: 'the programm description'
- *
- * return: Always 0 (Success)
+ * @n: n = 98 is the argument
  */
-
 void reset_to_98(int *n)
-
 {
 	*n = 98;
 }
